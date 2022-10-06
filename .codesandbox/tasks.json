@@ -1,0 +1,153 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "prebuild": {
+      "name": "prebuild",
+      "command": "yarn prebuild",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "postbuild": {
+      "name": "postbuild",
+      "command": "yarn postbuild",
+      "runAtStart": false
+    },
+    "build:modern": {
+      "name": "build:modern",
+      "command": "yarn build:modern",
+      "runAtStart": false
+    },
+    "build:esm": {
+      "name": "build:esm",
+      "command": "yarn build:esm",
+      "runAtStart": false
+    },
+    "prettier:fix": {
+      "name": "prettier:fix",
+      "command": "yarn prettier:fix",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "yarn lint:fix",
+      "runAtStart": false
+    },
+    "type": {
+      "name": "type",
+      "command": "yarn type",
+      "runAtStart": false
+    },
+    "coverage": {
+      "name": "coverage",
+      "command": "yarn coverage",
+      "runAtStart": false
+    },
+    "jest-preview": {
+      "name": "jest-preview",
+      "command": "yarn jest-preview",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "yarn test:coverage",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "yarn test:watch",
+      "runAtStart": false
+    },
+    "test:web": {
+      "name": "test:web",
+      "command": "yarn test:web",
+      "runAtStart": false
+    },
+    "test:server": {
+      "name": "test:server",
+      "command": "yarn test:server",
+      "runAtStart": false
+    },
+    "test:native": {
+      "name": "test:native",
+      "command": "yarn test:native",
+      "runAtStart": false
+    },
+    "tsd": {
+      "name": "tsd",
+      "command": "yarn tsd",
+      "runAtStart": false
+    },
+    "cypress": {
+      "name": "cypress",
+      "command": "yarn cypress",
+      "runAtStart": false
+    },
+    "cypress:open": {
+      "name": "cypress:open",
+      "command": "yarn cypress:open",
+      "runAtStart": false
+    },
+    "api-extractor": {
+      "name": "api-extractor",
+      "command": "yarn api-extractor",
+      "runAtStart": false
+    },
+    "api-extractor:build": {
+      "name": "api-extractor:build",
+      "command": "yarn api-extractor:build",
+      "runAtStart": false
+    },
+    "api-extractor:ci": {
+      "name": "api-extractor:ci",
+      "command": "yarn api-extractor:ci",
+      "runAtStart": false
+    },
+    "postversion": {
+      "name": "postversion",
+      "command": "yarn postversion",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "yarn prepublishOnly",
+      "runAtStart": false
+    },
+    "bundlewatch": {
+      "name": "bundlewatch",
+      "command": "yarn bundlewatch",
+      "runAtStart": false
+    },
+    "start:app": {
+      "name": "start:app",
+      "command": "yarn start:app",
+      "runAtStart": true
+    }
+  }
+}
